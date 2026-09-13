@@ -1,0 +1,36 @@
+{
+  "name": "weather-tool-git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"src/**/*.js\"",
+    "format:check": "prettier --check \"src/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrSesbianLexovich/weather-tool.git"
+  },
+  "keywords": [],
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/MrSesbianLexovich/weather-tool/issues"
+  },
+  "homepage": "https://github.com/MrSesbianLexovich/weather-tool#readme",
+  "dependencies": {
+    "@eslint/js": "^10.0.1",
+    "dotenv": "^17.4.2",
+    "eslint": "^10.10.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-n": "^18.3.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "prettier": "^3.9.6",
+    "url": "^0.11.4"
+  }
+}
