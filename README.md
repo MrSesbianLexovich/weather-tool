@@ -75,5 +75,3 @@ weather-tool/
         └──envParser.ts       # чтение переменных окружения
 └── reports/
 ```
-=======
->>>>>>> cd78ca4aeaa8d26de099e0cfcdbb11ebbdaa1523
